@@ -415,7 +415,7 @@ namespace PdfiumViewer
             return pdfInfo;
         }
 
-        private string GetMetaText(string tag)
+        public string GetMetaText(string tag)
         {
             // Length includes a trailing \0.
 
